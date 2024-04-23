@@ -58,18 +58,44 @@ body {
   margin-left: 2rem;
 }
 
-.menu h1 {
-    color: #fff;
-    text-align: center;
-    margin-top: 10rem;
-    font-size: 3rem;
+.name-page {
+  margin-top: 7rem;
 }
 
-.menu .row-menu {
-    margin: 5rem 10rem;
-    display: flex;
-    justify-content: center;
-    gap: 4rem;
-    flex-wrap: wrap;
+.name-page h1 {
+  text-align: center;
+  font-size: 3rem;
 }
 
+.row-info {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10rem;
+  margin-top: 5rem;
+  justify-content: center;
+  gap: 15rem;
+}
+
+.row-info img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.row-info .row-plus h1 {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.row-info .row-plus p {
+  width: 40rem;
+  margin-top: 2rem;
+  word-spacing: 0.3rem;
+}
+
+.row-info .row-plus .row-visi {
+  margin-top: 1rem;
+}
+
+.row-info .row-plus .row-visi ul {
+  margin-bottom: 0.4rem;
+}
