@@ -58,44 +58,81 @@ body {
   margin-left: 2rem;
 }
 
-.name-page {
-  margin-top: 7rem;
+
+.contact h1 {
+    font-size: 3rem;
+    margin-top: 10rem;
+    text-align: center;
 }
 
-.name-page h1 {
-  text-align: center;
-  font-size: 3rem;
+.contact p {
+    margin-top: 2rem;
+    text-align: center;
+    color: #fff;
+    width: 60rem;
+    font-size: 1.4rem;
 }
 
-.row-info {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 10rem;
-  margin-top: 5rem;
-  justify-content: center;
-  gap: 15rem;
+.contact .row-contact {
+    margin-top: 5rem;
+    margin-left: 20rem;
+    display: flex;
+    gap: 10rem;
+}
+.contact .row-contact h3 {
+    color: #fff;
+    font-size: 1.3rem;
 }
 
-.row-info img {
-  width: 20rem;
-  height: 20rem;
+.contact .row-contact .row-info .row-first{
+    display: flex;
+    gap: 3rem;
 }
 
-.row-info .row-plus h1 {
-  color: #fff;
-  margin-bottom: 2rem;
+.contact .row-contact .row-info .row-satuan {
+    display: grid;
 }
 
-.row-info .row-plus p {
-  width: 40rem;
-  margin-top: 2rem;
-  word-spacing: 0.3rem;
+.contact .row-contact .row-info .row-satuan input {
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    padding-left: 0.5rem;
 }
 
-.row-info .row-plus .row-visi {
-  margin-top: 1rem;
+.contact .row-contact .row-info .row-second {
+    margin-top: 2rem;
 }
 
-.row-info .row-plus .row-visi ul {
-  margin-bottom: 0.4rem;
+.contact .row-contact .row-info .row-second h3,.contact .row-contact .row-info .row-first h3 {
+    margin-bottom: 0.5rem;
+}
+
+.contact .row-contact .row-info .row-second input {
+    width: 33.2rem;
+    height: 3rem;
+    border-radius: 10px;
+    padding-left: 0.5rem;
+}
+
+.contact .row-contact .row-info .row-second .pesan {
+    width: 33.2rem;
+    height: 10rem;
+    padding-bottom: 8rem;
+}
+
+.contact .row-contact .row-info .row-send {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.contact .row-contact .row-info .row-send a {
+    color: #fff;
+    background-color: var(--primary);
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+.contact .row-contact .row-info .row-send a:hover {
+    color: #ff4545;
+    background-color: #fff;
 }
